@@ -11,7 +11,7 @@ function HomePage() {
     <>
       <h1>My home page</h1>
       <p>
-        Check our <Link to="/products">Products</Link>.
+        Check our <Link to="products">Products</Link>.
       </p>
       <button onClick={navigateHandler}>Navigate to products.</button>
     </>
